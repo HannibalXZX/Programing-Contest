@@ -1,0 +1,21 @@
+/*
+作者:徐子潇
+题目:p1202 求和
+*/
+
+
+#include<stdio.h>
+int main()
+{
+int n,i=0,sum=0;
+scanf("%d",&n);
+int *a=(int *)malloc(sizeof(int)*n);
+printf("\n");
+for(i=0;i<n;i++)
+scanf("%d ",&a[i]);
+for(i=0;i<n;i++)
+sum+=a[i];
+printf("%d \n",sum);
+ return 0;
+}
+// 完成程序以后，点击下方的提交，即可看到测试结果
